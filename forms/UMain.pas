@@ -16,6 +16,7 @@ type
     rgFonteDeDados: TRadioGroup;
     btnBuscar: TButton;
     lvResultado: TListView;
+    procedure btnBuscarClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,6 +28,30 @@ var
 
 implementation
 
+uses
+  UIMunicipio, UMunicipio, UIFuncionario, UIDeputadosLoader,
+  UDeputadosLoaderCSV, Spring.Collections;
+
 {$R *.dfm}
+
+procedure TfrmMain.btnBuscarClick(Sender: TObject);
+var
+ m : IMunicipio;
+ f : IFuncionario;
+ d : IDeputadosLoader;
+ i : Integer;
+ l : IEnumerable<Integer>;
+begin
+  d := TDeputadosLoaderCSV.New;
+  l := d.getDeputados;
+
+  for i in l do
+  begin
+    lvResultado.Items.Add.Caption := IntToStr(i);
+  end;
+
+
+
+end;
 
 end.

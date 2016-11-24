@@ -57,6 +57,7 @@ object frmMain: TfrmMain
       Height = 25
       Caption = 'Buscar'
       TabOrder = 2
+      OnClick = btnBuscarClick
     end
   end
   object pnlResultado: TPanel
