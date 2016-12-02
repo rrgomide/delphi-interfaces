@@ -6,6 +6,9 @@
         <Projects Include="DelphiInterfaces.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Municipios\Municipios.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -23,14 +26,23 @@
     <Target Name="DelphiInterfaces:Make">
         <MSBuild Projects="DelphiInterfaces.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Municipios">
+        <MSBuild Projects="Municipios\Municipios.dproj"/>
+    </Target>
+    <Target Name="Municipios:Clean">
+        <MSBuild Projects="Municipios\Municipios.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Municipios:Make">
+        <MSBuild Projects="Municipios\Municipios.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="DelphiInterfaces"/>
+        <CallTarget Targets="DelphiInterfaces;Municipios"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="DelphiInterfaces:Clean"/>
+        <CallTarget Targets="DelphiInterfaces:Clean;Municipios:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="DelphiInterfaces:Make"/>
+        <CallTarget Targets="DelphiInterfaces:Make;Municipios:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
