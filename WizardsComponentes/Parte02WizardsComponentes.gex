@@ -1,0 +1,7 @@
+[General]
+Name=Parte02WizardsComponentes
+Project=1
+[Classes]
+Count=2
+Class0="TfrmParte02","TForm","UPrincipal","9","C:\Users\m24107\Dropbox\computacao\git\delphi-interfaces\WizardsComponentes\forms\UPrincipal.pas"
+Class1="TfrmREST","TForm","URestDeputados","10","C:\Users\m24107\Dropbox\computacao\git\delphi-interfaces\WizardsComponentes\forms\URestDeputados.pas"

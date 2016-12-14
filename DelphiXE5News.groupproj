@@ -9,6 +9,12 @@
         <Projects Include="Municipios\Municipios.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="NovidadesDaIDE\Parte01NovidadesDaIDE.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="WizardsComponentes\Parte02WizardsComponentes.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -35,14 +41,32 @@
     <Target Name="Municipios:Make">
         <MSBuild Projects="Municipios\Municipios.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Parte01NovidadesDaIDE">
+        <MSBuild Projects="NovidadesDaIDE\Parte01NovidadesDaIDE.dproj"/>
+    </Target>
+    <Target Name="Parte01NovidadesDaIDE:Clean">
+        <MSBuild Projects="NovidadesDaIDE\Parte01NovidadesDaIDE.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Parte01NovidadesDaIDE:Make">
+        <MSBuild Projects="NovidadesDaIDE\Parte01NovidadesDaIDE.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Parte02WizardsComponentes">
+        <MSBuild Projects="WizardsComponentes\Parte02WizardsComponentes.dproj"/>
+    </Target>
+    <Target Name="Parte02WizardsComponentes:Clean">
+        <MSBuild Projects="WizardsComponentes\Parte02WizardsComponentes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Parte02WizardsComponentes:Make">
+        <MSBuild Projects="WizardsComponentes\Parte02WizardsComponentes.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="DelphiInterfaces;Municipios"/>
+        <CallTarget Targets="DelphiInterfaces;Municipios;Parte01NovidadesDaIDE;Parte02WizardsComponentes"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="DelphiInterfaces:Clean;Municipios:Clean"/>
+        <CallTarget Targets="DelphiInterfaces:Clean;Municipios:Clean;Parte01NovidadesDaIDE:Clean;Parte02WizardsComponentes:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="DelphiInterfaces:Make;Municipios:Make"/>
+        <CallTarget Targets="DelphiInterfaces:Make;Municipios:Make;Parte01NovidadesDaIDE:Make;Parte02WizardsComponentes:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
