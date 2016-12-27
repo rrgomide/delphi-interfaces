@@ -2,7 +2,8 @@ program Parte01NovidadesDaIDE;
 
 uses
   Vcl.Forms,
-  UPrincipal in 'forms\UPrincipal.pas' {frmPrincipal};
+  UPrincipal in 'forms\UPrincipal.pas' {frmPrincipal},
+  UFuncionario in 'classes\UFuncionario.pas';
 
 {$R *.res}
 

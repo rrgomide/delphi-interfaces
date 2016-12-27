@@ -1,9 +1,9 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{D08C9535-4191-42B1-9771-C5406066261C}</ProjectGuid>
+        <ProjectGuid>{986D492D-D9F2-4C8F-B8B0-215AA7CD1F18}</ProjectGuid>
         <ProjectVersion>15.3</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
-        <MainSource>Parte01NovidadesDaIDE.dpr</MainSource>
+        <MainSource>NovosRecursos.dpr</MainSource>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
@@ -40,8 +40,8 @@
         <Base>true</Base>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
-        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
+        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
         <DCC_ExeOutput>.\$(Platform)\$(Config)</DCC_ExeOutput>
         <DCC_E>false</DCC_E>
@@ -51,11 +51,11 @@
         <DCC_K>false</DCC_K>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
-        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <DCC_UsePackage>JvBDE;JvGlobus;JvMM;adsprovider190;JvManagedThreads;FireDACSqliteDriver;ZComponent;DBXSqliteDriver;FireDACPgDriver;fmx;JvDlgs;IndySystem;JvCrypt;TeeDB;dacvcl190;vclib;inetdbbde;DBXInterBaseDriver;DataSnapCommon;JvNet;JvDotNetCtrls;DbxCommonDriver;OXml;vclimg;unidac190;QR506RunDXE5W64;dbxcds;MetropolisUILiveTile;JvXPCtrls;vcldb;vcldsnap;fmxFireDAC;accessprovider190;unidacfmx190;CustomIPTransport;JvCore;vclribbon;dsnap;IndyIPServer;OmniThreadLibraryRuntimeXE5;fmxase;vcl;IndyCore;IndyIPCommon;CloudService;CodeSiteExpressPkg;FmxTeeUI;FireDACIBDriver;db2provider190;crcontrols190;JvAppFrm;JvDB;JvRuntimeDesign;inetdbxpress;JclDeveloperTools;JvDocking;adortl;JvWizards;FireDACASADriver;dacfmx190;JvHMI;bindcompfmx;JvBands;vcldbx;FireDACODBCDriver;ZDbc;rtl;dbrtl;DbxClientDriver;FireDACCommon;bindcomp;ZPlain;JvPluginSystem;dbfprovider190;Tee;JclContainers;odbcprovider190;JvCmp;vclFireDAC;JvSystem;xmlrtl;svnui;ibxpress;aseprovider190;JvControls;JvTimeFramework;IndyProtocols;DBXMySQLDriver;FireDACCommonDriver;soaprtl;bindengine;vclactnband;bindcompdbx;FMXTee;TeeUI;bindcompvcl;JvStdCtrls;JvCustom;Jcl;vclie;JvJans;JvPageComps;JvPrintPreview;FireDACADSDriver;vcltouch;ZCore;dac190;VclSmp;FireDAC;VCLRESTComponents;Intraweb;unidacvcl190;dsnapcon;inet;fmxobj;JclVcl;JvPascalInterpreter;FireDACMySQLDriver;ZParseSql;vclx;svn;fmxdae;RESTComponents;bdertl;Almg_unidac;FireDACMSAccDriver;dbexpress;IndyIPClient;$(DCC_UsePackage)</DCC_UsePackage>
-        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
         <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
         <VerInfo_Locale>1033</VerInfo_Locale>
+        <DCC_UsePackage>JvBDE;JvGlobus;JvMM;adsprovider190;JvManagedThreads;FireDACSqliteDriver;ZComponent;DBXSqliteDriver;FireDACPgDriver;fmx;JvDlgs;IndySystem;JvCrypt;TeeDB;dacvcl190;vclib;inetdbbde;DBXInterBaseDriver;DataSnapCommon;JvNet;JvDotNetCtrls;DbxCommonDriver;OXml;vclimg;unidac190;QR506RunDXE5W64;dbxcds;MetropolisUILiveTile;JvXPCtrls;vcldb;vcldsnap;fmxFireDAC;accessprovider190;unidacfmx190;CustomIPTransport;JvCore;vclribbon;dsnap;IndyIPServer;OmniThreadLibraryRuntimeXE5;fmxase;vcl;IndyCore;IndyIPCommon;CloudService;CodeSiteExpressPkg;FmxTeeUI;FireDACIBDriver;db2provider190;crcontrols190;JvAppFrm;JvDB;JvRuntimeDesign;inetdbxpress;JclDeveloperTools;JvDocking;adortl;JvWizards;FireDACASADriver;dacfmx190;JvHMI;bindcompfmx;JvBands;vcldbx;FireDACODBCDriver;ZDbc;rtl;dbrtl;DbxClientDriver;FireDACCommon;bindcomp;ZPlain;JvPluginSystem;dbfprovider190;Tee;JclContainers;odbcprovider190;JvCmp;vclFireDAC;JvSystem;xmlrtl;svnui;ibxpress;aseprovider190;JvControls;JvTimeFramework;IndyProtocols;DBXMySQLDriver;FireDACCommonDriver;soaprtl;bindengine;vclactnband;bindcompdbx;FMXTee;TeeUI;bindcompvcl;JvStdCtrls;JvCustom;Jcl;vclie;JvJans;JvPageComps;JvPrintPreview;FireDACADSDriver;vcltouch;ZCore;dac190;VclSmp;FireDAC;VCLRESTComponents;Intraweb;unidacvcl190;dsnapcon;inet;fmxobj;JclVcl;JvPascalInterpreter;FireDACMySQLDriver;ZParseSql;vclx;svn;fmxdae;RESTComponents;bdertl;Almg_unidac;FireDACMSAccDriver;dbexpress;IndyIPClient;$(DCC_UsePackage)</DCC_UsePackage>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
@@ -86,7 +86,15 @@
             <Form>frmPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="classes\UFuncionario.pas"/>
+        <DCCReference Include="..\WizardsComponentes\forms\UFrmPadrao.pas">
+            <Form>frmPadrao</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="classes\UStringsHelper.pas"/>
+        <DCCReference Include="forms\UClassHelpers.pas">
+            <Form>frmClassHelpers</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -155,7 +163,7 @@
                     <VersionInfoKeys Name="theme"/>
                 </VersionInfoKeys>
                 <Source>
-                    <Source Name="MainSource">Parte01NovidadesDaIDE.dpr</Source>
+                    <Source Name="MainSource">NovosRecursos.dpr</Source>
                 </Source>
             </Delphi.Personality>
             <Deployment/>

@@ -105,6 +105,14 @@
             <Form>frmPadrao</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="forms\UTesteoXML.pas">
+            <Form>frmOXML</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="forms\USuperObject.pas">
+            <Form>frmSuperObject</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <None Include="assets\deputados.xml"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

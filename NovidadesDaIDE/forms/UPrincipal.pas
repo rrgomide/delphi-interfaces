@@ -36,12 +36,14 @@ type
     btnRefactorDeclararVariavel: TButton;
     btnRefactorFindUnit: TButton;
     btnRefactoringExtractMethod: TButton;
+    btnRecord: TButton;
     procedure btnMacros1Click(Sender: TObject);
     procedure btnRegioesClick(Sender: TObject);
     procedure btnSyncEditClick(Sender: TObject);
     procedure btnMacros2Click(Sender: TObject);
     procedure btnRefactorDeclararVariavelClick(Sender: TObject);
     procedure btnRefactoringExtractMethodClick(Sender: TObject);
+    procedure btnRecordClick(Sender: TObject);
   private
     procedure olaMundo;
     { Private declarations }
@@ -143,6 +145,72 @@ begin
 end;
 
 
+procedure TfrmPrincipal.btnRecordClick(Sender: TObject);
+var
+  sql : string;
+begin
+  {Exemplo de macro  - Ctrl + Shift + R para gravar e parar
+                       Ctrl + Shift + P para "tocar"
+    SELECT
+      P.NOME,
+      E.ENDERECO
+    FROM
+      PESSOA P,
+      ENDERECO E
+    WHERE
+      P.CPF = E.PESSOA
+    ORDER BY
+      P.NOME
+  }
+  sql :=
+
+    '  SELECT                  ' +
+    '    P.NOME,               ' +
+    '    E.ENDERECO            ' +
+    '  FROM                    ' +
+    '    PESSOA P,             ' +
+    '    ENDERECO E            ' +
+    '  WHERE                   ' +
+    '    P.CPF = E.PESSOA      ' +
+    '  ORDER BY                ' +
+    '    P.NOME                ' ;
+
+
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 procedure TfrmPrincipal.btnRefactorDeclararVariavelClick(Sender: TObject);
 begin
   //teste := 'Gomide';
@@ -191,4 +259,7 @@ begin
   ShowMessage(IntToStr(numero));
 
 end;
+
+end.
+
 

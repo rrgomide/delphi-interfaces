@@ -15,6 +15,9 @@
         <Projects Include="WizardsComponentes\Parte02WizardsComponentes.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="NovosRecursos\NovosRecursos.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -59,14 +62,23 @@
     <Target Name="Parte02WizardsComponentes:Make">
         <MSBuild Projects="WizardsComponentes\Parte02WizardsComponentes.dproj" Targets="Make"/>
     </Target>
+    <Target Name="NovosRecursos">
+        <MSBuild Projects="NovosRecursos\NovosRecursos.dproj"/>
+    </Target>
+    <Target Name="NovosRecursos:Clean">
+        <MSBuild Projects="NovosRecursos\NovosRecursos.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NovosRecursos:Make">
+        <MSBuild Projects="NovosRecursos\NovosRecursos.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="DelphiInterfaces;Municipios;Parte01NovidadesDaIDE;Parte02WizardsComponentes"/>
+        <CallTarget Targets="DelphiInterfaces;Municipios;Parte01NovidadesDaIDE;Parte02WizardsComponentes;NovosRecursos"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="DelphiInterfaces:Clean;Municipios:Clean;Parte01NovidadesDaIDE:Clean;Parte02WizardsComponentes:Clean"/>
+        <CallTarget Targets="DelphiInterfaces:Clean;Municipios:Clean;Parte01NovidadesDaIDE:Clean;Parte02WizardsComponentes:Clean;NovosRecursos:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="DelphiInterfaces:Make;Municipios:Make;Parte01NovidadesDaIDE:Make;Parte02WizardsComponentes:Make"/>
+        <CallTarget Targets="DelphiInterfaces:Make;Municipios:Make;Parte01NovidadesDaIDE:Make;Parte02WizardsComponentes:Make;NovosRecursos:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

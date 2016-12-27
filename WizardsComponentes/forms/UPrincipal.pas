@@ -10,8 +10,12 @@ type
   TfrmParte02 = class(TForm)
     btnCNPackGExperts: TButton;
     btnXMLDataBinding: TButton;
-    procedure btn1Click(Sender: TObject);
+    btnOXML: TButton;
+    btnXSuperObject: TButton;
     procedure btnXMLDataBindingClick(Sender: TObject);
+    procedure btnCNPackGExpertsClick(Sender: TObject);
+    procedure btnOXMLClick(Sender: TObject);
+    procedure btnXSuperObjectClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -24,15 +28,27 @@ var
 implementation
 
 uses
-  UXMLDataBinding, UCNPackGExperts;
+  UXMLDataBinding, UCNPackGExperts, UTesteoXML, USuperObject;
 
 {$R *.dfm}
 
-procedure TfrmParte02.btn1Click(Sender: TObject);
+procedure TfrmParte02.btnCNPackGExpertsClick(Sender: TObject);
 var
   form : TfrmCNPackGExperts;
 begin
   form := TfrmCNPackGExperts.Create(nil);
+  try
+    form.ShowModal;
+  finally
+    form.Free;
+  end;
+end;
+
+procedure TfrmParte02.btnOXMLClick(Sender: TObject);
+var
+  form : TfrmOXML;
+begin
+  form := TfrmOXML.Create(nil);
   try
     form.ShowModal;
   finally
@@ -45,6 +61,18 @@ var
   form : TfrmXMLDataBinding;
 begin
   form := TfrmXMLDataBinding.Create(nil);
+  try
+    form.ShowModal;
+  finally
+    form.Free;
+  end;
+end;
+
+procedure TfrmParte02.btnXSuperObjectClick(Sender: TObject);
+var
+  form : TfrmSuperObject;
+begin
+  form := TfrmSuperObject.Create(nil);
   try
     form.ShowModal;
   finally
