@@ -1,4 +1,4 @@
-program Parte01NovidadesDaIDE;
+program Aula01NovidadesDaIDE;
 
 uses
   Vcl.Forms,

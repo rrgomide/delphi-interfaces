@@ -127,13 +127,4 @@ object frmPrincipal: TfrmPrincipal
     WordWrap = True
     OnClick = btnRefactoringExtractMethodClick
   end
-  object btnRecord: TButton
-    Left = 368
-    Top = 200
-    Width = 75
-    Height = 25
-    Caption = 'Teste'
-    TabOrder = 7
-    OnClick = btnRecordClick
-  end
 end

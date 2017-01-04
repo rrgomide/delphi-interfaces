@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UFrmPadrao, Vcl.StdCtrls;
 
 type
-  TfrmClassHelpers = class(TFrmPadrao)
+  TfrmClassHelpers = class(TfrmPadrao)
     btnNumeroAtual: TButton;
     mmoNumeros: TMemo;
     procedure btnNumeroAtualClick(Sender: TObject);

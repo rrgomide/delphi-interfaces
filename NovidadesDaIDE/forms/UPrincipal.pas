@@ -36,7 +36,6 @@ type
     btnRefactorDeclararVariavel: TButton;
     btnRefactorFindUnit: TButton;
     btnRefactoringExtractMethod: TButton;
-    btnRecord: TButton;
     procedure btnMacros1Click(Sender: TObject);
     procedure btnRegioesClick(Sender: TObject);
     procedure btnSyncEditClick(Sender: TObject);

@@ -3,7 +3,7 @@ unit UStringsHelper;
 interface
 
 uses
-  System.Classes;
+  System.Classes, Vcl.Controls, System.SysUtils;
 
 type
 
@@ -16,10 +16,7 @@ type
 
 implementation
 
-uses
-  System.SysUtils;
-
-{ TStringHelper }
+{ TStringsHelper }
 
 procedure TStringsHelper.AddInteger(value: Integer);
 begin
