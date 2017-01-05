@@ -9,7 +9,8 @@ uses
   URecords in 'forms\URecords.pas' {frmRecords},
   URVotacao in 'classes\URVotacao.pas',
   UUnicode in 'forms\UUnicode.pas' {frmUnicode},
-  UFrmGenerics in 'forms\UFrmGenerics.pas' {frmGenerics};
+  UFrmGenerics in 'forms\UFrmGenerics.pas' {frmGenerics},
+  UAnonymousMethods in 'forms\UAnonymousMethods.pas' {frmAnonymousMethods};
 
 {$R *.res}
 

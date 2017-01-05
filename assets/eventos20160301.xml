@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agendaDiaria>
+  <tamanho>14</tamanho>
+  <dia>2016-03-01</dia>
+  <nomeDiaSemana>Terça-feira</nomeDiaSemana>
+  <itens>
+    <itemCadastrado>
+      <codigoInterno>AA.45504</codigoInterno>
+      <titulo>Exposição 20 Anos do Zás</titulo>
+      <local>Galeria de Arte</local>
+      <descricao>Mostra dos cartazes de divulgação dos espetáculos já realizados pelo Zás - programa da ALMG de fomento à música, dança, teatro, poesia e outras manifestações artísticas.</descricao>
+      <diaInicial class="sql-timestamp">2016-02-29</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-04</diaFinal>
+      <horaInicial>08:00</horaInicial>
+      <horaFinal>18:00</horaFinal>
+      <urlDetalhe>/almg_cultural/programacao/eventos/2016/02/exposicao_vinte_anos_zas.html</urlDetalhe>
+      <categoria>
+        <id>31</id>
+        <nome>Outros Eventos</nome>
+        <origemConteudo>CADASTRO</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>sem_secao</secoesPortal>
+        </parametrosBusca>
+        <idsCategoriasSuperiores>6</idsCategoriasSuperiores>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>sem_secao</secoesPortal>
+      </parametrosBusca>
+      <situacao>OK</situacao>
+    </itemCadastrado>
+    <reuniaoComissao>
+      <codigoInterno>1.508.20160301.09:00</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Segurança Pública</subtitulo>
+      <local>Plenarinho I</local>
+      <descricao>debater os crimes relacionados ao furto e roubo de veículos.&#xd;
+&#xd;
+A PARTE DA REUNIÃO DESTINADA A OUVIR CONVIDADOS FOI REMARCADA PARA O DIA 08/03/2016.</descricao>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>09:00</horaInicial>
+      <horaFinal>09:23</horaFinal>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=508&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=09:00&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>CANCELADA_PARTE_COM_CONVIDADOS</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>508</idComissaoIdentificadora>
+      <idReuniaoComissao>26320</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>508</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Segurança Pública</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>1.3.20160301.10:00</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Assuntos Municipais e Regionalização</subtitulo>
+      <local>Auditório</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>10:00</horaInicial>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=3&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=10:00&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>NAO_OCORRIDO</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>3</idComissaoIdentificadora>
+      <idReuniaoComissao>26335</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>3</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Assuntos Municipais e Regionalização</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>1.800.20160301.10:30</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Minas e Energia</subtitulo>
+      <local>Plenarinho IV</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>10:30</horaInicial>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=800&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=10:30&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>NAO_OCORRIDO</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>800</idComissaoIdentificadora>
+      <idReuniaoComissao>26331</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>800</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Minas e Energia</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>1.850.20160301.11:00</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Esporte, Lazer e Juventude</subtitulo>
+      <local>Plenarinho II</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>11:00</horaInicial>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=850&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=11:00&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>NAO_OCORRIDO</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>850</idComissaoIdentificadora>
+      <idReuniaoComissao>26356</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>850</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Esporte, Lazer e Juventude</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoPlenario>
+      <codigoInterno>20160301.14:00</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <local>Plenário</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>14:00</horaInicial>
+      <horaFinal>14:23</horaFinal>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/plenario/interna.html?tipo=res&amp;dDet=01|03|2016&amp;hDet=14:00</urlDetalhe>
+      <categoria>
+        <id>0</id>
+        <nome>Plenário</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,plenario</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,plenario</secoesPortal>
+      </parametrosBusca>
+      <situacao>OK</situacao>
+      <tipoReuniao>1</tipoReuniao>
+    </reuniaoPlenario>
+    <reuniaoComissao>
+      <codigoInterno>1.1.20160301.14:30</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Administração Pública</subtitulo>
+      <local>Plenarinho IV</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>14:30</horaInicial>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=1&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=14:30&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>NAO_OCORRIDO</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>1</idComissaoIdentificadora>
+      <idReuniaoComissao>26334</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>1</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Administração Pública</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>2.5.20160301.15:00</codigoInterno>
+      <titulo>Reunião Extraordinária</titulo>
+      <subtitulo>Comissão de Constituição e Justiça</subtitulo>
+      <local>Plenarinho IV</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>15:00</horaInicial>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=5&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=15:00&amp;tpCom=2&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>CANCELADO</situacao>
+      <tipoReuniao>2</tipoReuniao>
+      <idComissaoIdentificadora>5</idComissaoIdentificadora>
+      <idReuniaoComissao>26384</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>5</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Constituição e Justiça</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>1.1077.20160301.15:00</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Desenvolvimento Econômico</subtitulo>
+      <local>Plenarinho III</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>15:00</horaInicial>
+      <horaFinal>15:55</horaFinal>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=1077&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=15:00&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>OK</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>1077</idComissaoIdentificadora>
+      <idReuniaoComissao>26379</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>1077</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Desenvolvimento Econômico</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>1.12.20160301.15:00</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Transporte, Comunicação e Obras Públicas</subtitulo>
+      <local>Auditório</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>15:00</horaInicial>
+      <horaFinal>15:28</horaFinal>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=12&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=15:00&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>OK</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>12</idComissaoIdentificadora>
+      <idReuniaoComissao>26385</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>12</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Transporte, Comunicação e Obras Públicas</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>1.859.20160301.15:30</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Defesa dos Direitos da Pessoa com Deficiência</subtitulo>
+      <local>Plenarinho I</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>15:30</horaInicial>
+      <horaFinal>16:06</horaFinal>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=859&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=15:30&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>OK</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>859</idComissaoIdentificadora>
+      <idReuniaoComissao>26342</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>859</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Defesa dos Direitos da Pessoa com Deficiência</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>1.959.20160301.16:00</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Prevenção e Combate ao uso de Crack e outras Drogas</subtitulo>
+      <local>Plenarinho II</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>16:00</horaInicial>
+      <horaFinal>16:35</horaFinal>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=959&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=16:00&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>OK</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>959</idComissaoIdentificadora>
+      <idReuniaoComissao>26368</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>959</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Prevenção e Combate ao uso de Crack e outras Drogas</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>1.585.20160301.16:00</codigoInterno>
+      <titulo>Reunião Ordinária</titulo>
+      <subtitulo>Comissão de Participação Popular</subtitulo>
+      <local>Plenarinho IV</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>16:00</horaInicial>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=585&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=16:00&amp;tpCom=1&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>NAO_OCORRIDO</situacao>
+      <tipoReuniao>1</tipoReuniao>
+      <idComissaoIdentificadora>585</idComissaoIdentificadora>
+      <idReuniaoComissao>26367</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>585</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Participação Popular</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+    <reuniaoComissao>
+      <codigoInterno>2.5.20160301.16:15</codigoInterno>
+      <titulo>Reunião Extraordinária</titulo>
+      <subtitulo>Comissão de Constituição e Justiça</subtitulo>
+      <local>Plenarinho I</local>
+      <diaInicial class="sql-timestamp">2016-03-01</diaInicial>
+      <diaFinal class="sql-timestamp">2016-03-01</diaFinal>
+      <horaInicial>16:15</horaInicial>
+      <horaFinal>16:35</horaFinal>
+      <urlDetalhe>http://www.almg.gov.br/atividade_parlamentar/comissoes/internaPauta.html?idCom=5&amp;dia=01&amp;mes=03&amp;ano=2016&amp;hr=16:15&amp;tpCom=2&amp;aba=js_tabPauta</urlDetalhe>
+      <categoria>
+        <id>1</id>
+        <nome>Comissões</nome>
+        <origemConteudo>SISTEMA</origemConteudo>
+        <parametrosBusca>
+          <secoesPortal>home,agenda,comissoes</secoesPortal>
+        </parametrosBusca>
+      </categoria>
+      <parametrosBusca>
+        <secoesPortal>home,agenda,comissoes</secoesPortal>
+      </parametrosBusca>
+      <situacao>OK</situacao>
+      <tipoReuniao>2</tipoReuniao>
+      <idComissaoIdentificadora>5</idComissaoIdentificadora>
+      <idReuniaoComissao>26387</idReuniaoComissao>
+      <comissoesParticipantes>
+        <comissaoParticipante>
+          <idComissao>5</idComissao>
+          <tipoParticipacao>IDENTIFICACAO</tipoParticipacao>
+          <nomeComissao>Comissão de Constituição e Justiça</nomeComissao>
+        </comissaoParticipante>
+      </comissoesParticipantes>
+    </reuniaoComissao>
+  </itens>
+</agendaDiaria>

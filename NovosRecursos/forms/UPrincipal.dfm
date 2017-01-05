@@ -2,7 +2,7 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   Caption = 'Novos Recursos da Linguagem'
-  ClientHeight = 260
+  ClientHeight = 251
   ClientWidth = 523
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,7 +17,7 @@ object frmPrincipal: TfrmPrincipal
     Left = 0
     Top = 0
     Width = 523
-    Height = 260
+    Height = 251
     Align = alClient
     TabOrder = 0
     object btnClassHelpers: TButton
@@ -116,6 +116,23 @@ object frmPrincipal: TfrmPrincipal
       TabOrder = 5
       WordWrap = True
       OnClick = btnGenericsClick
+    end
+    object btnAnonymousMethods: TButton
+      Left = 175
+      Top = 176
+      Width = 169
+      Height = 73
+      Align = alCustom
+      Caption = 'Anonymous Methods'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 6
+      WordWrap = True
+      OnClick = btnAnonymousMethodsClick
     end
   end
 end

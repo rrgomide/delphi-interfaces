@@ -10,6 +10,10 @@ uses
 
 type
 
+  TProcedure = reference to procedure;
+  TProcedureComParametro = reference to procedure(valor : Integer);
+  TFuncao = reference to function(valor : Integer) : Integer;
+
 {$REGION 'Exemplo com strict'}
   TClasseComStrict = class
 
@@ -34,11 +38,13 @@ type
       pnlParte01: TPanel;
       pnl1: TPanel;
       btnGenerics: TButton;
+    btnAnonymousMethods: TButton;
       procedure btnClassHelpersClick(Sender : TObject);
     procedure btnRecordsClick(Sender: TObject);
       procedure btnUnicodeClick(Sender: TObject);
       procedure btnStrictClick(Sender: TObject);
       procedure btnGenericsClick(Sender: TObject);
+    procedure btnAnonymousMethodsClick(Sender: TObject);
       private
         { Private declarations }
       public
@@ -87,9 +93,28 @@ var
 implementation
 
 uses
-  UClassHelpers, URecords, UUnicode, UFrmGenerics;
+  UClassHelpers, URecords, UUnicode, UFrmGenerics, UAnonymousMethods;
 
 {$R *.dfm}
+
+procedure TfrmPrincipal.btnAnonymousMethodsClick(Sender: TObject);
+var
+  funcao : TFuncao;
+  form : TfrmAnonymousMethods;
+begin
+  funcao :=
+    function(x : Integer) : Integer
+    begin
+      Result := x + 3;
+    end;
+
+  form := TfrmAnonymousMethods.Create(nil);
+  try
+    form.ShowModal;
+  finally
+    form.Free;
+  end;
+end;
 
 procedure TfrmPrincipal.btnClassHelpersClick(Sender : TObject);
 var

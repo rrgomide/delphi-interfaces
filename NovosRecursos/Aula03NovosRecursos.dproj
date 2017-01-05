@@ -71,7 +71,7 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <DCC_ExeOutput>.\exe</DCC_ExeOutput>
+        <DCC_ExeOutput>..\exe</DCC_ExeOutput>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
     </PropertyGroup>
@@ -109,6 +109,10 @@
         </DCCReference>
         <DCCReference Include="forms\UFrmGenerics.pas">
             <Form>frmGenerics</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="forms\UAnonymousMethods.pas">
+            <Form>frmAnonymousMethods</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <None Include="ModelSupport_Aula03NovosRecursos\default.txaPackage"/>

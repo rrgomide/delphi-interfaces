@@ -11,7 +11,7 @@ type
 
   TAcao = reference to procedure;
 
-  TfrmGenerics = class(TFrmPadrao)
+  TfrmGenerics = class(TfrmPadrao)
     btnPesquisar: TButton;
     mmoResultado: TMemo;
     edtTermo: TLabeledEdit;
