@@ -134,5 +134,22 @@ object frmPrincipal: TfrmPrincipal
       WordWrap = True
       OnClick = btnAnonymousMethodsClick
     end
+    object btnAttributes: TButton
+      Left = 350
+      Top = 176
+      Width = 169
+      Height = 73
+      Align = alCustom
+      Caption = 'Attributes'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 7
+      WordWrap = True
+      OnClick = btnAttributesClick
+    end
   end
 end

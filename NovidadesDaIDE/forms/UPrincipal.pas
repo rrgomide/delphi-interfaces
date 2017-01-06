@@ -43,6 +43,7 @@ type
     procedure btnRefactorDeclararVariavelClick(Sender: TObject);
     procedure btnRefactoringExtractMethodClick(Sender: TObject);
     procedure btnRecordClick(Sender: TObject);
+    procedure btnRefactorFindUnitClick(Sender: TObject);
   private
     procedure olaMundo;
     { Private declarations }
@@ -215,13 +216,12 @@ begin
   //teste := 'Gomide';
 end;
 
-procedure TfrmPrincipal.btnRefactoringExtractMethodClick(Sender: TObject);
+procedure TfrmPrincipal.btnRefactorFindUnitClick(Sender: TObject);
 begin
-  olaMundo;
+ //Declarar algo com TList
 end;
 
-///<summary>Olá mundo method</summary>
-procedure TfrmPrincipal.olaMundo;
+procedure TfrmPrincipal.btnRefactoringExtractMethodClick(Sender: TObject);
 var
   x: string;
 begin

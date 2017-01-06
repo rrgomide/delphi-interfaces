@@ -39,12 +39,14 @@ type
       pnl1: TPanel;
       btnGenerics: TButton;
     btnAnonymousMethods: TButton;
+    btnAttributes: TButton;
       procedure btnClassHelpersClick(Sender : TObject);
     procedure btnRecordsClick(Sender: TObject);
       procedure btnUnicodeClick(Sender: TObject);
       procedure btnStrictClick(Sender: TObject);
       procedure btnGenericsClick(Sender: TObject);
     procedure btnAnonymousMethodsClick(Sender: TObject);
+    procedure btnAttributesClick(Sender: TObject);
       private
         { Private declarations }
       public
@@ -93,7 +95,8 @@ var
 implementation
 
 uses
-  UClassHelpers, URecords, UUnicode, UFrmGenerics, UAnonymousMethods;
+  UClassHelpers, URecords, UUnicode, UGenerics, UAnonymousMethods,
+  UAttributes;
 
 {$R *.dfm}
 
@@ -109,6 +112,18 @@ begin
     end;
 
   form := TfrmAnonymousMethods.Create(nil);
+  try
+    form.ShowModal;
+  finally
+    form.Free;
+  end;
+end;
+
+procedure TfrmPrincipal.btnAttributesClick(Sender: TObject);
+var
+  form : TFrmAttributes;
+begin
+  form := TFrmAttributes.Create(nil);
   try
     form.ShowModal;
   finally

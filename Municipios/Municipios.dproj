@@ -84,16 +84,16 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="forms\UFrmMunicipios.pas">
-            <Form>frmMunicipios</Form>
+        <DCCReference Include="..\NovosRecursos\forms\UAttributes.pas">
+            <Form>frmAttributes</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="classes\UMunicipios.pas"/>
         <DCCReference Include="interfaces\UIMunicipios.pas"/>
         <DCCReference Include="interfaces\UIMunicipio.pas"/>
         <DCCReference Include="interfaces\UIFonteDadosMunicipio.pas"/>
-        <DCCReference Include="classes\UFonteDadosCSV.pas"/>
-        <DCCReference Include="classes\UMunicipio.pas"/>
+        <DCCReference Include="..\NovosRecursos\classes\UFonteDadosCSV.pas"/>
+        <DCCReference Include="..\NovosRecursos\classes\UMunicipio.pas"/>
         <DCCReference Include="enums\UTipoOrdenacao.pas"/>
         <DCCReference Include="interfaces\UIInformacao.pas"/>
         <DCCReference Include="attributes\UDescricaoAttribute.pas"/>

@@ -173,10 +173,10 @@ begin
       begin
         if ascendente then
         begin
-          Result := CompareStr(L.Nome, R.Nome);
+          Result := CompareText(L.Nome, R.Nome);
         end else
         begin
-          Result := CompareStr(R.Nome, L.Nome);
+          Result := CompareText(R.Nome, L.Nome);
         end;
       end
     )

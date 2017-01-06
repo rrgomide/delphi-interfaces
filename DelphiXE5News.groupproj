@@ -15,10 +15,10 @@
         <Projects Include="WizardsComponentes\Aula02WizardsComponentes.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="NovosRecursos\Aula03NovosRecursos.dproj">
+        <Projects Include="TestesConsole\TestesConsole.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="TestesConsole\TestesConsole.dproj">
+        <Projects Include="NovosRecursos\Aula03NovosRecursos.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -65,15 +65,6 @@
     <Target Name="Aula02WizardsComponentes:Make">
         <MSBuild Projects="WizardsComponentes\Aula02WizardsComponentes.dproj" Targets="Make"/>
     </Target>
-    <Target Name="Aula03NovosRecursos">
-        <MSBuild Projects="NovosRecursos\Aula03NovosRecursos.dproj"/>
-    </Target>
-    <Target Name="Aula03NovosRecursos:Clean">
-        <MSBuild Projects="NovosRecursos\Aula03NovosRecursos.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="Aula03NovosRecursos:Make">
-        <MSBuild Projects="NovosRecursos\Aula03NovosRecursos.dproj" Targets="Make"/>
-    </Target>
     <Target Name="TestesConsole">
         <MSBuild Projects="TestesConsole\TestesConsole.dproj"/>
     </Target>
@@ -83,14 +74,23 @@
     <Target Name="TestesConsole:Make">
         <MSBuild Projects="TestesConsole\TestesConsole.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Aula03NovosRecursos">
+        <MSBuild Projects="NovosRecursos\Aula03NovosRecursos.dproj"/>
+    </Target>
+    <Target Name="Aula03NovosRecursos:Clean">
+        <MSBuild Projects="NovosRecursos\Aula03NovosRecursos.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Aula03NovosRecursos:Make">
+        <MSBuild Projects="NovosRecursos\Aula03NovosRecursos.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="DelphiInterfaces;Municipios;Aula01NovidadesDaIDE;Aula02WizardsComponentes;Aula03NovosRecursos;TestesConsole"/>
+        <CallTarget Targets="DelphiInterfaces;Municipios;Aula01NovidadesDaIDE;Aula02WizardsComponentes;TestesConsole;Aula03NovosRecursos"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="DelphiInterfaces:Clean;Municipios:Clean;Aula01NovidadesDaIDE:Clean;Aula02WizardsComponentes:Clean;Aula03NovosRecursos:Clean;TestesConsole:Clean"/>
+        <CallTarget Targets="DelphiInterfaces:Clean;Municipios:Clean;Aula01NovidadesDaIDE:Clean;Aula02WizardsComponentes:Clean;TestesConsole:Clean;Aula03NovosRecursos:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="DelphiInterfaces:Make;Municipios:Make;Aula01NovidadesDaIDE:Make;Aula02WizardsComponentes:Make;Aula03NovosRecursos:Make;TestesConsole:Make"/>
+        <CallTarget Targets="DelphiInterfaces:Make;Municipios:Make;Aula01NovidadesDaIDE:Make;Aula02WizardsComponentes:Make;TestesConsole:Make;Aula03NovosRecursos:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

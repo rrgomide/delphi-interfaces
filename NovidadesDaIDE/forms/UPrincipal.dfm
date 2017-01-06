@@ -110,6 +110,7 @@ object frmPrincipal: TfrmPrincipal
     ParentFont = False
     TabOrder = 5
     WordWrap = True
+    OnClick = btnRefactorFindUnitClick
   end
   object btnRefactoringExtractMethod: TButton
     Left = 24

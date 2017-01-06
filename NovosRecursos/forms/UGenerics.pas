@@ -1,4 +1,4 @@
-unit UFrmGenerics;
+unit UGenerics;
 
 interface
 

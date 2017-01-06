@@ -107,7 +107,7 @@
             <Form>frmUnicode</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="forms\UFrmGenerics.pas">
+        <DCCReference Include="forms\UGenerics.pas">
             <Form>frmGenerics</Form>
             <FormType>dfm</FormType>
         </DCCReference>
@@ -115,6 +115,17 @@
             <Form>frmAnonymousMethods</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="forms\UAttributes.pas">
+            <Form>frmAttributes</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="classes\UFonteDadosCSV.pas"/>
+        <DCCReference Include="classes\UMunicipio.pas"/>
+        <DCCReference Include="attributes\UDescricaoAttribute.pas"/>
+        <DCCReference Include="attributes\UInfoAttribute.pas"/>
+        <DCCReference Include="enums\UTipoOrdenacao.pas"/>
+        <DCCReference Include="helpers\URttiHelper.pas"/>
+        <DCCReference Include="classes\UMunicipios.pas"/>
         <None Include="ModelSupport_Aula03NovosRecursos\default.txaPackage"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

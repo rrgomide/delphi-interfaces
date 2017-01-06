@@ -2,13 +2,13 @@ program Municipios;
 
 uses
   Vcl.Forms,
-  UFrmMunicipios in 'forms\UFrmMunicipios.pas' {frmMunicipios},
+  UAttributes in '..\NovosRecursos\forms\UAttributes.pas' {frmAttributes},
   UMunicipios in 'classes\UMunicipios.pas',
   UIMunicipios in 'interfaces\UIMunicipios.pas',
   UIMunicipio in 'interfaces\UIMunicipio.pas',
   UIFonteDadosMunicipio in 'interfaces\UIFonteDadosMunicipio.pas',
-  UFonteDadosCSV in 'classes\UFonteDadosCSV.pas',
-  UMunicipio in 'classes\UMunicipio.pas',
+  UFonteDadosCSV in '..\NovosRecursos\classes\UFonteDadosCSV.pas',
+  UMunicipio in '..\NovosRecursos\classes\UMunicipio.pas',
   UTipoOrdenacao in 'enums\UTipoOrdenacao.pas',
   UIInformacao in 'interfaces\UIInformacao.pas',
   UDescricaoAttribute in 'attributes\UDescricaoAttribute.pas',
@@ -20,6 +20,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TfrmMunicipios, frmMunicipios);
+  Application.CreateForm(TfrmAttributes, frmAttributes);
   Application.Run;
 end.
